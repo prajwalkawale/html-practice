@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image map in html</title>
+</head>
+<body>
+    <h1>Click on the following image and load a new page based on the page you clicked</h1>
+    <br>
+    <br>
+    <img src="./workplace.jpg" alt="workplace" usemap="#firstMap">
+
+    <map name="firstMap">
+        <area shape="rect" coords="36,42,272,339" href="https://www.google.com/intl/en_in/chromebook/" alt="Laptop" target="_self">
+        <area shape="rect" coords="291,171,331,245" href="https://www.gsmarena.com/google_pixel_9_pro_xl-13217.php" alt="google pixel" target="_blank">
+        <area shape="circle" coords="341,288,50" href="https://en.wikipedia.org/wiki/Coffee" alt="coffee" target="_blank">
+    </map>
+</body>
+</html>
